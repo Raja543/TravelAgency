@@ -1,0 +1,25 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-bg {
+  background: rgb(233, 250, 240);
+  background: linear-gradient(
+    90deg,
+    rgba(233, 250, 240, 1) 36%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.custom-bg2 {
+  background: rgb(233, 249, 239);
+  background: linear-gradient(
+    90deg,
+    rgba(233, 249, 239, 1) 10%,
+    rgb(237, 247, 241) 35%,
+    rgb(235, 245, 240) 60%,
+    rgb(255, 254, 254) 100%
+  );
+}
