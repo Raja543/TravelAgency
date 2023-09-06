@@ -187,10 +187,10 @@ const Sidebar = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center bg-[#151d3f] text-[#fff] rounded-2xl">
+          <div className="flex flex-col justify-center items-center bg-[#151d3f] text-[#fff] mt-4 rounded-2xl">
             <img
               src="/assets/images/p3.png"
-              className="rounded-xl h-auto w-40 object-cover"
+              className="rounded-xl h-auto w-48 object-cover"
             />
             <h1 className=" font-bold font-poppins px-2">Let's Explore</h1>
             <h2 className="font-bold font-poppins px-2">The beauty</h2>
