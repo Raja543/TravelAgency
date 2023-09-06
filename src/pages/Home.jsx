@@ -4,7 +4,7 @@ import Hero from "../components/Hero/Hero";
 import Company from "../components/Company/Company";
 import Testimonial from "../components/Testimonial/Testimonial";
 import Subscription from "../components/Subscription/Subscription";
-import Memories from "../Memories/Memories";
+import Memories from "../components/Memories/Memories";
 import Footer from "../components/Footer/Footer";
 
 const Home = () => {

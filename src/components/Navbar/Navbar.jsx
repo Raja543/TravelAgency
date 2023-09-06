@@ -22,13 +22,13 @@ const Navbar = () => {
           <Link to="/">
             <li className="text-black font-black text-lg px-6">Home</li>
           </Link>
-          <Link to="/findproperty">
+          <Link to="/about">
             <li className="text-black font-black text-lg px-6">About</li>
           </Link>
-          <Link to="/price">
+          <Link to="/">
             <li className="text-black font-black text-lg px-6">Pricing</li>
           </Link>
-          <Link to="/contact">
+          <Link to="/">
             <li className="text-black font-black text-lg px-6">Contact</li>
           </Link>
           <Link to="/">
@@ -36,12 +36,12 @@ const Navbar = () => {
           </Link>
         </ul>
         <div className="md:flex md:items-center hidden ">
-          <Link to="/register">
+          <Link to="/">
             <button className=" max-w-fit text-black text-lg font-[Albert-sans] py-2 px-6 ">
               Register
             </button>
           </Link>
-          <Link to="/login">
+          <Link to="/">
             <button className="bg-[#30cf77] max-w-fit text-white text-lg font-[Albert-sans] py-2 px-6 rounded-full ">
               Login
             </button>
