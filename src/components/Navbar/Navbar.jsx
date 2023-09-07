@@ -71,7 +71,7 @@ const Navbar = () => {
               <Link to="/">
                 <li className="text-black font-black text-xl px-4">Home</li>
               </Link>
-              <Link to="/">
+              <Link to="/about">
                 <li className="text-black font-black text-xl px-4">About</li>
               </Link>
               <Link to="/">
@@ -83,7 +83,7 @@ const Navbar = () => {
               <Link to="/">
                 <li className="text-black font-black text-xl px-4 ">Blog</li>
               </Link>
-              <Link to="/register">
+              <Link to="/">
                 <button className="bg-[#fff] max-w-fit text-black text-base font-[Albert-sans] py-1 px-4 rounded-lg duration-500 mx-3 my-2 ">
                   Register
                 </button>

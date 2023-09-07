@@ -11,10 +11,9 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import Calendar from "react-calendar";
-// import "react-calendar/dist/Calendar.css";
 import "./Calendar.css";
 
-const Sidebar = () => {
+const About = () => {
   const [date, setDate] = useState(new Date());
 
   const handleDateChange = (selectedDate) => {
@@ -57,7 +56,7 @@ const Sidebar = () => {
         <div>
           <img
             src="/assets/images/p1.jpeg"
-            className="rounded-xl h-auto w-full my-8 -mx-16"
+            className="rounded-xl h-auto w-full my-8 "
           />
         </div>
         <div className="flex flex-row hover:bg-[#47da93] rounded-xl hover:text-[#fff] my-12 p-4 cursor-pointer ">
@@ -122,7 +121,9 @@ const Sidebar = () => {
                 </p>
               </div>
               <div className="flex border-2 border-[#e5e5e5] m-4 ml-40">
-                <p className="text-xl font-bold font-poppins p-4 mr-0">Filters</p>
+                <p className="text-xl font-bold font-poppins p-4 mr-0">
+                  Filters
+                </p>
               </div>
             </div>
 
@@ -283,4 +284,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default About;
