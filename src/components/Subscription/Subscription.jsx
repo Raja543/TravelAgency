@@ -4,7 +4,7 @@ import React from "react";
 const SubscriptionPlanCards = () => {
   return (
     <div className="bg-gray-100 p-4 md:px-32 md:py-20 custom-bg2">
-      <h1 className="text-5xl font-poppins font-bold text-center p-4 ">
+      <h1 className="text-3xl md:text-5xl font-poppins font-bold text-center p-4 ">
         Choose The Plan That Suits You
       </h1>
       <p className="text-center text-gray-600 ">
@@ -87,4 +87,3 @@ const SubscriptionPlanCards = () => {
 };
 
 export default SubscriptionPlanCards;
-
